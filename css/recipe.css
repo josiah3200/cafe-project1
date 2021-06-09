@@ -1,0 +1,16 @@
+.flex-containerone,.flex-container3,.flex-container5{
+    display: flex;
+    background: purple;
+    color: lightsalmon;
+    border-radius:10px;
+   padding:20px;
+    border:10px solid darkred;
+}
+.flex-containertwo,.flex-container4,.flex-container6{
+    display: flex;
+    background:lightsalmon;
+    color: purple;
+    border-radius: 10px;
+    padding: 20px;
+    border:10px solid darkorange;
+}

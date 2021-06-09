@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>application form</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.caferobusta.css">
+    <script src="bootstrap/js/jquery-3.6.0.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+</head>
+<style>
+ .menu-carousel-forms{
+     display: flex;
+     grid-template-columns:1fr 2fr 1fr;
+     background: palevioletred;
+     border: 2px solid purple;
+     color: black;
+ }
+ .forms{
+     border: 2px solid black;
+     width: auto;
+ }
+</style>
+<body>
+
+
+<!--navbar-->
+<nav class="navbar navbar-expand-sm bg-warning navbar-warning justify-content-right" >
+    <!-- loggo -->
+    <a class="navbar-brand" href="#"></a>
+    <img src="image/coffee%20logo.jpg" alt="logo" height="100" width="150">
+    <!-- Links -->
+    <ul class="navbar-nav">
+
+
+        <!-- navbar-home -->
+        <li class="nav-item">
+            <a class="nav-link" href="project%20cafe.html">Home</a>
+        </li>
+
+        <!-- Dropdown-About us -->
+        <li class="nav-item">
+            <a class="nav-link" href="About%20Us.html">About us</a>
+        </li>
+
+        </li>
+        <!-- navbar-career -->
+        <li class="nav-item">
+            <a class="nav-link" href="partners.html">Partners</a>
+        </li>
+        <!-- navbar-career -->
+        <li class="nav-item">
+            <a class="nav-link" href="career.html">Careers</a>
+        </li>
+        <!-- navbar-career -->
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.baristainstitute.com/blog">Blog</a></li>
+
+        <li><form class="form-inline" action="/action_page.php">
+            <input class="form-control mr-sm-2" ,type="text" placeholder="what's your flavour?">
+            <button class="btn btn-success" type="submit">Search</button>
+        </form></li>
+    </ul>
+</nav>
+
+
+
+
+
+
+  <div class="menu-carousel-forms">
+
+      <!--carousel starts here-->
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+              <li data-target="#demo" data-slide-to="3"></li>
+              <li data-target="#demo" data-slide-to="4"></li>
+              <li data-target="#demo" data-slide-to="5"></li>
+          </ul>
+
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="image/shop2.jpg" alt="coffee shop" width="700" height="700">
+                  <div class="carousel-caption">
+                      <h3>greenhouse cafe</h3>
+
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <img src="image/staff3.jpg" alt="staff" width="700" height="700">
+                  <div class="carousel-caption">
+                      <p>Coffee with a friend is like capturing happiness in a cup....</p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <img src="image/esspressopresentation2.jpg" alt="presentation2" width="700" height="700">
+                  <div class="carousel-caption">
+                      <p>Coffee with a friend is like capturing happiness in a cup....</p>
+                  </div>
+              </div>
+              <div class="carousel-item">"
+                  <img src="image/esspressopresentation.jpg" alt="presentation" width="700" height="700">
+                  <div class="carousel-caption">
+                      <p>Coffee with a friend is like capturing happiness in a cup....</p>
+                  </div>
+              </div>
+              <div class="carousel-item">"
+                  <img src="image/shop3.jpg" alt="coffee shop" width="700" height="700">
+                  <div class="carousel-caption">
+                      <p>Coffee with a friend is like capturing happiness in a cup....</p>
+                  </div>
+              </div>
+              <div class="carousel-item">"
+                  <img src="image/staff4jazz.jpg" alt="coffee shop" width="700" height="700">
+                  <div class="carousel-caption">
+                      <p>Coffee with a friend is like capturing happiness in a cup....</p>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+          </a>
+      </div>
+
+      <!--application form-->
+      <div class="forms">
+          <form action="//submit.form" id="EmploymentApplication100" method="post" onsubmit="return ValidateForm(this);">
+
+        <table >
+            <tr> <td style="width: 50%">
+                <label ><b>First name *</b></label><br />
+                <input name="First_Name" type="text" maxlength="50" style="width:100%;max-width: 260px" />
+            </td>
+                <td style="width: 50%">
+                    <label ><b>Last name *</b></label><br />
+                    <input name="Last_Name" type="text" maxlength="50" style="width:100%;max-width: 260px" />
+                </td> </tr> <tr> <td colspan="2">
+            <label><b>Email *</b></label><br />
+            <input name="Email_Address" type="text" maxlength="100" style="width:100%;max-width: 535px" />
+        </td> </tr> <tr>
+        </tr> <tr> <td colspan="2">
+            <label><b>Position you are applying for *</b></label><br />
+            <input name="Position" type="text" maxlength="100" style="width:100%;max-width: 535px" />
+        </td> </tr> <tr> <td>
+            <label><b>Salary requirements</b></label><br /> <input name="Salary" type="text" maxlength="50" style="width:100%;max-width: 260px" /> </td> <td>
+            <label ><b>When can you start?</b></label><br />
+            <input name="StartDate" type="text" maxlength="50" style="width:100%;max-width: 260px" />
+        </td> </tr> <tr> <td>
+            <label><b>Phone *</b></label><br />
+            <input name="Phone" type="text" maxlength="50" style="width:100%;max-width: 260px" />
+        </td>  </tr> <tr> <td colspan="2">
+            <label><b>Are you willing to relocate?</b></label><br />
+            <input name="Relocate" type="radio" value="Yes" checked="checked" /> Yes
+            <input name="Relocate" type="radio" value="No" /> No
+            <input name="Relocate" type="radio" value="NotSure" /> Not sure
+        </td> </tr> <tr> <td colspan="2">
+            <label><b>Last company you worked for</b></label><br />
+            <input name="Organization" type="text" maxlength="100" style="width:100%;max-width: 535px" />
+        </td> </tr> <tr> <td colspan="2">
+            <label><b>briefly describe your skills</b></label><br />
+            <textarea name="Reference" rows="7" cols="40" style="width:100%;max-width: 535px"></textarea>
+        </td> </tr> <tr> <td colspan="2" style="text-align: center;">
+            <div style="float: right"> <a href="https://info@cafederobusta.com" id="lnk100" title="form to email"></a></div>
+            <input name="skip_submit" type="submit" value="Send Application"/>
+        </td> </tr>
+        </table>
+    </form></div>
+</div>
+  <!--side-bar-->
+  <div class="sidebar">
+      <h1><b>Opening Hours</b></h1>
+
+      <div class="w3-row">
+          <div class="w3-half">
+              <p>Mon &amp; Tue CLOSED</p>
+              <p>Wednesday 10.00 - 24.00</p>
+              <p>Thursday 10:00 - 24:00</p>
+          </div>
+          <div class="w3-half">
+              <p>Friday 10:00 - 12:00</p>
+              <p>Saturday 10:00 - 23:00</p>
+              <p>Sunday Closed</p>
+          </div>
+      </div>
+  </div>
+
+
+  </div>
+
+
+
+</body>
+</html>

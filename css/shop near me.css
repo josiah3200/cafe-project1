@@ -1,0 +1,9 @@
+.flex1,.flex2,.flex3{
+    display: flex;
+    background: purple;
+    color: lightsalmon;
+    border-radius:10px;
+    padding-left:15px;
+    padding-right:15px;
+    border:10px;
+}

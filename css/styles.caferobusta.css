@@ -1,0 +1,59 @@
+
+.flex1 ,.flex2,.flex3,.flex4,.flex5,.flex6,.black,.cappuccino{
+    font-size:18px;
+    font-family: cursive;
+    display: flex;
+    flex:1 1 33%;
+    color:black;
+    padding:40px;
+    border-radius:20px;
+    border:3px solid rebeccapurple;
+    background: #9c234b;
+    text-align:justify-all;
+    text-justify: auto;
+}
+.menu-carousel-sidebar{
+    display:grid;
+    grid-template-columns:1fr 2fr 1fr;
+    border:4px solid purple;
+    border-radius:20px;
+    background:#9c234b;
+    font-size: 18px;
+
+}
+
+.flex-career{
+    border: 3px solid purple;
+}
+
+.sidebar{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #1a73e8;
+    text-align:center;
+}
+.menu{
+    border-radius:20px;
+    text-align:center;
+}
+.carousel-caption, carousel-item
+{
+    color: #671ab4;
+}
+.table{
+    font-family: Century;
+    font-size:18px;
+    color: #1f73e8;
+    text-align: center;
+    border-radius:10px;
+}
+body{
+    background-color:palevioletred;
+}
+.nav-item, .navbar {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #7e11e3;
+    align-content:center;
+    row-span: inherit;
+}
